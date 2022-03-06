@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-first-angular-proj';
+  title = 'Wowza Project';
+  name: string = 'Abdullah';
+  itemList: string[] = ['cookies','pineapples', 'choocolates', 'milk'];
+
+  rectangle = {
+    length: 5,
+    width: 6,
+    area: function() {
+       return this.length * this.width;
+    }
+ }
 }
